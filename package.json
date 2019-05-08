@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0"
   },
   "scripts": {
-    "start": "react-scripts start && curl -O https://www.osrsbox.com/osrsbox-db/items-complete.json",
+    "start": "react-scripts start && curl -o src/items-complete https://www.osrsbox.com/osrsbox-db/items-json-slot/items-2h.json",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
